@@ -23,14 +23,14 @@ async function script() {
     await client.connect();
     console.log("conectado ao banco de dados");
 
-    // for (const item of csvData) {
-    //     await service.create(csvCollection, item);
-    // }
-    // console.log("dados inseridos no banco de dados");
+    for (const item of csvData) {
+        await service.create(csvCollection, item);
+    }
+    console.log("dados inseridos no banco de dados");
 
-    //console.log(await service.getAll(csvCollection));
-    const result = await service.getOne(csvCollection, "632a05a331539d5eced272c1");
-    console.log(result);
+    // //console.log(await service.getAll(csvCollection));
+    // const result = await service.getOne(csvCollection, "632a05a331539d5eced272c1");
+    // console.log(result);
 
 
     await client.close();

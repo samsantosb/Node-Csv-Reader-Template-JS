@@ -2,7 +2,7 @@
   "scripts": {
     "start": "node ./src/app.js",
     "seed": "node ./src/db/mongo.seeder.js",
-    "data": "node ./src/repositories/csv.repository.js",
+    "data": "node ./src/script/csv.script.js",
     "test": "jest",
     "coverage": "npx jest --coverage"
   },

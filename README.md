@@ -24,8 +24,6 @@
 
 3. Jest
 
-4. Logo4js
-
 ## Como instalar
 
 1. npm i
@@ -46,16 +44,14 @@
 
 ## Diretorios
 
-1. logs - Aqui temos o registro de todos os logs do Script
+1. mocks - Aqui temos mocks/stubs para os testes do serviço principal
 
-2. mocks - Aqui temos mocks/stubs para os testes do serviço principal
+2. repositories - Aqui foram armazenados códigos de interação com o banco de dados
 
-3. repositories - Aqui foram armazenados códigos de interação com o banco de dados
+3. services - Aqui estão as funções principais do script
 
-4. services - Aqui estão as funções principais do script
+4. script - Aqui executamos os procedimentos de validação, logging e inserção de dados
 
-5. script - Aqui executamos os procedimentos de validação, logging e inserção de dados
-
-6. utils - Aqui encontram-se bibiliotecas/helpers
+5. utils - Aqui encontram-se bibiliotecas/helpers
 
 ## Detalhes

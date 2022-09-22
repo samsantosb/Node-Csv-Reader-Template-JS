@@ -28,19 +28,11 @@
 
 1. npm i
 
-## Como usar
+## Como utilizar
 
 1. node main.js para inicializar o script
 
 2. Os logs do Script ficam no prompt de comando e na pasta Logs, gerados pelo log4js
-
-## Testes
-
-1. Na pasta de Mocks você encontrará repositórios falsos e algumas estruturas simples
-   utilizadas para os testes unitários do serviço principal da aplicação, que verificam
-   retorno, promises e calls em caso de funções void.
-
-2. Para rodar os testes unitários utilize o comando npm test
 
 ## Diretorios
 

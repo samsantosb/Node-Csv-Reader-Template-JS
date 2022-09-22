@@ -1,5 +1,4 @@
 const { ObjectId } = require("mongodb");
-
 class MongoRepository {
     constructor(db) {
         this.db = db;

@@ -14,8 +14,6 @@ function csvDataFormated() {
         subsetOfThree.push(data.splice(0, 3));
     }
 
-
-
     //format the subset, removing :, empty spaces etc
     const formatedSubset = subsetOfThree.map((item) => {
         return item.map((item) => {
@@ -23,14 +21,11 @@ function csvDataFormated() {
         });
     });
 
-
-
     //transform the subset into an object ready to be inserted into the database
     const csvAsJsObject = formatedSubset.map((item) => {
         const [nome, idade, cep] = item;
         return { nome: nome, idade: Number(idade), cep: cep };
     });
-
 
     return csvAsJsObject;
 }
